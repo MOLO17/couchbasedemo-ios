@@ -14,10 +14,11 @@ The *Contact* model has the below fields:
 * surname
 * phoneNumber
 * email
+
 All fields are optional except the id.
 
 ## Project
-The project is based on the MVVM design pattern. Due to academic purposes the project was kept simple. The view controllers contain only UI and navigation logic. The view models contain all the application logic. They contain all the CRUD methods and are the only allowed to access the database.
+The project is based on the *MVVM design pattern*. Due to academic purposes the project was kept simple. The view controllers contain only UI and navigation logic. The view models contain all the application logic. They contain all the CRUD methods and are the only allowed to access the database.
 In a real application, is strongly recommended to split the project in more than one layer, to keep ui logic, domain logic and data logic separated.
 
 There are three groups of viewcontroller-viewmodel:
